@@ -1,0 +1,9 @@
+CoinsON:0
+Coins:9997
+LobbyNumber:1
+SoundVolume:50
+SoundOn:1
+Health:100
+CurrentWeapon:2
+Won:0
+gender:0

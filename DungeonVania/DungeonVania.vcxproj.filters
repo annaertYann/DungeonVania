@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Spells">
+      <UniqueIdentifier>{c0b72e07-d9f5-49de-a077-291cc30204b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Interactibles">
+      <UniqueIdentifier>{a9b1ab4e-39c1-4961-85ff-dd7ad79dd22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Hero">
+      <UniqueIdentifier>{454293a8-8c17-4440-b147-40668a127b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy">
+      <UniqueIdentifier>{790ef6a5-22c9-4176-b9e0-8c7246e827a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Rooms">
+      <UniqueIdentifier>{d37a9d1d-ec6f-4507-9216-844725f782b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Hud">
+      <UniqueIdentifier>{6b8cf6fe-2a7c-47c1-8ca9-2ed1cafdadb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellManager.cpp">
+      <Filter>Game Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Game Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="SlamGround.cpp">
+      <Filter>Game Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrel.cpp">
+      <Filter>Game Files\Interactibles</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBolt.cpp">
+      <Filter>Game Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>Game Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Game Files\Interactibles</Filter>
+    </ClCompile>
+    <ClCompile Include="Cyclops.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonGenerator.cpp">
+      <Filter>Game Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonRoom.cpp">
+      <Filter>Game Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Dwarf.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Game Files\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Game Files\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="Imp.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Game Files\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>Game Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Minotaur.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Pillar.cpp">
+      <Filter>Game Files\Interactibles</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Game Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Santa.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen.cpp">
+      <Filter>Game Files\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="WitchBasic.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellManager.h">
+      <Filter>Game Files\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Game Files\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="SlamGround.h">
+      <Filter>Game Files\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrel.h">
+      <Filter>Game Files\Interactibles</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBolt.h">
+      <Filter>Game Files\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>Game Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Game Files\Interactibles</Filter>
+    </ClInclude>
+    <ClInclude Include="Cyclops.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonGenerator.h">
+      <Filter>Game Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonRoom.h">
+      <Filter>Game Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Dwarf.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Game Files\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Game Files\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="Imp.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Game Files\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>Game Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Minotaur.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Pillar.h">
+      <Filter>Game Files\Interactibles</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Game Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Santa.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen.h">
+      <Filter>Game Files\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="WitchBasic.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
